@@ -1,0 +1,217 @@
+/* ========== RESET ========== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ========== ESTILO GENERAL ========== */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #000; /* Fondo negro */
+  color: #fff;
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  color: #9b59b6; /* Morado */
+}
+
+a {
+  color: #3498db; /* Azul */
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+a:hover {
+  color: #9b59b6;
+}
+
+/* ========== NAVEGACIÓN ========== */
+.navbar {
+  background: linear-gradient(90deg, #3498db, #9b59b6); /* Azul → Morado */
+  padding: 12px 25px;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+.navbar ul li a {
+  font-weight: bold;
+  padding: 8px 15px;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.navbar ul li a:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.navbar ul li a.active {
+  background-color: #000;
+  color: #fff;
+  border: 2px solid #9b59b6;
+}
+
+/* ========== SECCIONES GENERALES ========== */
+section {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+/* Botones generales */
+button, .btn {
+  padding: 10px 20px;
+  border: none;
+  background: linear-gradient(90deg, #3498db, #9b59b6);
+  color: white;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+button:hover, .btn:hover {
+  background: linear-gradient(90deg, #9b59b6, #3498db);
+  transform: scale(1.05);
+}
+
+/* Tarjetas */
+.curso-card {
+  background: #111;
+  padding: 20px;
+  margin: 15px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(155, 89, 182, 0.3);
+  transition: 0.3s;
+}
+
+.curso-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(52, 152, 219, 0.5);
+}
+
+/* ========== PERFIL ========== */
+.perfil {
+  text-align: left;
+}
+
+.info-usuario {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.foto-perfil {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-right: 20px;
+  border: 3px solid #3498db;
+}
+
+.datos-usuario h2 {
+  margin-bottom: 10px;
+  color: #9b59b6;
+}
+
+progress {
+  width: 100%;
+  height: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+progress::-webkit-progress-bar {
+  background-color: #222;
+}
+
+progress::-webkit-progress-value {
+  background: linear-gradient(90deg, #3498db, #9b59b6);
+}
+
+/* ========== CONTACTO ========== */
+.form-contacto {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto 30px auto;
+  max-width: 500px;
+}
+
+.form-contacto label {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.form-contacto input,
+.form-contacto textarea {
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  margin-top: 5px;
+  background: #111;
+  color: white;
+}
+
+.form-contacto button {
+  margin-top: 15px;
+}
+
+/* Info de contacto */
+.info-contacto, .redes, .mapa {
+  margin: 30px auto;
+  max-width: 600px;
+}
+
+/* Redes sociales */
+.redes a {
+  color: #3498db;
+  font-weight: bold;
+  margin: 0 10px;
+  transition: 0.3s;
+}
+
+.redes a:hover {
+  color: #9b59b6;
+}
+
+/* ========== MAPA DEL SITIO ========== */
+.mapa-sitio ul {
+  list-style-type: none;
+  margin-left: 20px;
+  text-align: left;
+}
+
+.mapa-sitio ul li {
+  margin: 8px 0;
+}
+
+.mapa-sitio ul li a {
+  color: #3498db;
+  font-weight: bold;
+}
+
+.mapa-sitio ul li a:hover {
+  color: #9b59b6;
+}
+
+/* ========== FOOTER ========== */
+footer {
+  background: #111;
+  padding: 20px;
+  text-align: center;
+  border-top: 2px solid #9b59b6;
+}
+/* Logo en la barra */
+.logo img {
+  height: 40px;  /* Ajusta el tamaño del logo */
+  width: auto;
+  margin-right: 20px;
+  vertical-align: middle;
+}
+
