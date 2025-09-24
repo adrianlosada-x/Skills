@@ -215,3 +215,75 @@ footer {
   vertical-align: middle;
 }
 
+
+/* ...código existente... */
+
+/* Oculta el menú por defecto */
+.navbar ul {
+  display: none;
+}
+
+/* Muestra el menú cuando el mouse está sobre el logo */
+.navbar:hover ul,
+.logo:hover + ul {
+  display: block;
+  position: absolute;
+  background: #fff;
+  margin: 0;
+  padding: 10px 0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  z-index: 100;
+}
+
+/* Opcional: ajusta el menú para que no se desordene */
+.navbar {
+  position: relative;
+}
+.navbar ul li {
+  display: block;
+  padding: 8px 20px;
+}
+
+/* ...código existente... */
+/* ...código existente... */
+
+/* Muestra el menú cuando el mouse está sobre el logo */
+.navbar:hover ul,
+.logo:hover + ul {
+  display: block;
+  position: absolute;
+  background: linear-gradient(90deg, #222, #9b59b6); /* Fondo oscuro con morado */
+  margin: 0;
+  padding: 10px 0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  z-index: 100;
+}
+
+/* Cambia el color de los enlaces del menú desplegable */
+.navbar ul li a {
+  color: #fff;
+  background: transparent;
+}
+
+.navbar ul li a:hover {
+  background: #9b59b6;
+  color: #fff;
+}
+
+/* ...código existente... */
+/* ...código existente... */
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo-text {
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-weight: 900;
+  font-size: 2rem;
+  color: #fff;
+  letter-spacing: 2px;
+  margin-left: 10px;
+  text-shadow: 0 2px 8px #9b59b6;
+}
+/* ...código existente... */
