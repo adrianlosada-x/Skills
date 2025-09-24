@@ -1,0 +1,2 @@
+# Skills
+Pajina gueb espotomas
