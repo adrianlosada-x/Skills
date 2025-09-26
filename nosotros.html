@@ -5,18 +5,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sobre Nosotros - Skills</title>
   <link rel="stylesheet" href="styles.css">
+  <!-- ...código existente... -->
+
+  <!-- ...código existente... -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Poppins:400,700|Roboto:400,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+
+<!-- ...código existente... -->
 </head>
 <body>
   <!-- Barra de navegación -->
 <header>
-  <nav class="navbar">
-    <div class="logo">
-      <a href="index.html">
-        <img src="logo.png" alt="Logo Skills">
-        <span class="logo-text">SKILLS</span>
-      </a>
-    </div>
-    <ul>
+   <nav class="navbar">
+    <a href="index.html" class="logo-link">
+      <img src="logo.png" alt="Logo Skills" class="logo-img">
+      <span class="logo-text">SKILLS</span>
+      <span class="menu-icon"><i class="fas fa-bars"></i></span>
+    </a>
+    <ul class="nav-list">
       <li><a href="index.html">Inicio</a></li>
       <li><a href="nosotros.html">Sobre Nosotros</a></li>
       <li><a href="cursos.html">Cursos</a></li>
@@ -34,7 +41,36 @@
     <h1>Sobre Nosotros</h1>
     <p>En <strong>Skills</strong> creemos en el poder de compartir conocimientos para transformar vidas. Nuestra plataforma conecta a personas de todo el mundo que desean aprender y enseñar de manera gratuita y colaborativa.</p>
   </section>
+  <section class="equipo">
+    <h2>Nuestro Equipo</h2>
+    <p>Somos un grupo diverso de educadores, desarrolladores y entusiastas de la tecnología comprometidos con la misión de hacer que la educación sea accesible para todos. Nuestro equipo trabaja incansablemente para mejorar la plataforma y ofrecer una experiencia de usuario excepcional.</p>
+   <style>
+    .galeria {
+      display: flex;
+      gap: 5px;
+      justify-content: center;
+    
+    }
+    figure {
+      text-align: center;
+    }
+    </style>
+    <div class="galeria">
+    <figure>
+     <img src="avatarjuan.jpg" alt="Juan Pablo Aponte" width="60%"> 
+     <figcaption> Juan Pablo Aponte</figcaption>
+    </figure>
+     <figure> 
+      <img src="avatarcristian.jpg" alt="Cristian Ballen" width="60%"> 
+      <figcaption>Cristian Ballen</figcaption>
+    </figure> 
+    <figure> 
+      <img src="avataradrian.jpg" alt="Adrian Losada" width="60%">
+       <figcaption>Adrian Losada</figcaption>
+      </figure>
+    </div>
 
+  </section>
   <!-- Misión -->
   <section class="mision">
     <h2>Misión</h2>
